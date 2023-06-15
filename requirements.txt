@@ -1,6 +1,6 @@
 einops==0.3.2
 matplotlib
-moabb==0.5.0
+moabb==0.4.5
 numpy
 pandas
 scikit_learn
