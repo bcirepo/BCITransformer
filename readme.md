@@ -30,7 +30,7 @@ Dataset().get_dataset()
 
 ### Training and Evaluation
 The code to train and evaluate this paradigm is inside [`main.py`](https://github.com/dreamsentropy/BCITransformer/blob/main/main.py). 
-The fold must be an integer number between 1-10. The subject must be an integer represent the subject ID. 
+The fold must be an integer number between 0-9. The subject must be an integer represent the subject ID. 
 
 Example to  train Subject Dependent, use:
 ```bash
