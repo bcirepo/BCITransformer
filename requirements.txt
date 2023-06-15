@@ -1,0 +1,9 @@
+einops==0.3.2
+matplotlib
+moabb==0.5.0
+numpy
+pandas
+scikit_learn
+scipy
+seaborn
+tqdm==4.64.1
