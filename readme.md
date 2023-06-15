@@ -25,7 +25,7 @@ This code aims to download and generate the corresponding MI dataset for each su
 
 Example to generate Dataset, use:
 ```bash
-Dataset(dataset='Lee').get_dataset()
+Dataset().get_dataset()
 ```
 
 ### Training and Evaluation
