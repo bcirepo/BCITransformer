@@ -10,9 +10,9 @@ Make sure you have `Python==3.9` installed on the computer.
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch
 ```
 
-2. [MOABB](http://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014001.html)
+2. Other requirements
 ```bash
-pip install moabb==0.4.5
+pip install -r requirement.txt
 ```
    Please note that this library will download the dataset from third party website.
 
