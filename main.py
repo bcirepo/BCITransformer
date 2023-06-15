@@ -47,6 +47,7 @@ class Train:
         x_val, y_val = lsv.get_eval_data_label()
 
         self.args.paradigm = 'SIT'
+        self.args.device = 'cpu'
         self.args.epochs = 1000
         self.args.val_len = x_val.shape[0]
         self.args.eval_subject = subject
