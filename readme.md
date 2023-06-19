@@ -28,6 +28,11 @@ Example to generate Dataset, use:
 Dataset().get_dataset()
 ```
 
+Or go to directory where the file is stored and execute through command line:
+```bash
+python get_dataset.py
+```
+
 ### Training and Evaluation
 The code to train and evaluate this paradigm is inside [`main.py`](https://github.com/bcirepo/BCITransformer/blob/main/main.py). 
 The fold must be an integer number between 0-9. The subject must be an integer represent the subject ID. 
