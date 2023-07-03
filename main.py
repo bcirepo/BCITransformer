@@ -51,7 +51,6 @@ class Train:
         self.args.epochs = 1000
         self.args.val_len = x_val.shape[0]
         self.args.eval_subject = subject
-        self.args.device = 'cuda:3'
         train_loader = MyDataset(x_train, y_train)
         val_loader = MyDataset(x_val, y_val)
 
