@@ -151,10 +151,10 @@ class Trainer:
                  'optim': self.optimizer.state_dict(),
                  'best_acc': self.best_acc,
                  'seed': self.seed}
-        torch.save(param, f'weight/{self.args.dataset}_{filename}_{self.args.eval_subject}_{self.args.eval_idx}_{self.args.train_id}.pth')
+        torch.save(param, f'weight/{self.args.dataset}_{filename}_{self.args.eval_subject}_{self.args.eval_idx}.pth')
 
     def load_param(self, filename):
-        param = torch.load(f'weight/{self.args.dataset}_{filename}_{self.args.eval_subject}_{self.args.eval_idx}_{self.args.train_id}.pth')
+        param = torch.load(f'weight/{self.args.dataset}_{filename}_{self.args.eval_subject}_{self.args.eval_idx}.pth')
         return param
 
     @torch.no_grad()
