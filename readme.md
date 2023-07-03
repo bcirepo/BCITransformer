@@ -6,6 +6,7 @@ We recommend using [PyCharm]([pytorch.org](https://www.jetbrains.com/pycharm/)) 
 Make sure you have `Python==3.9` installed on the computer.
 
 A. Create PyCharm Project using Conda environment 
+
 B. Unzip the code from this repository, and put inside the project
 
 
@@ -27,18 +28,9 @@ pip install -r requirements.txt
 ## Usage
 Please follow these following steps to run the code.
 ### Download Dataset
-Open [`generate_dataset.py`](https://github.com/bcirepo/BCITransformer/blob/main/generate_dataset.py) code through the PyCharm IDE.
+Open and RUN [`generate_dataset.py`](https://github.com/bcirepo/BCITransformer/blob/main/generate_dataset.py) code through the PyCharm IDE.
 This code aims to download and generate the corresponding MI dataset for each subject. First, it will download raw datasets from MOABB and save it in the local directory.
 
-Example to generate Dataset, use:
-```bash
-Dataset().get_dataset()
-```
-
-Or go to directory where the file is stored and execute through command line:
-```bash
-python get_dataset.py
-```
 
 ### Training and Evaluation
 The code to train and evaluate this paradigm is inside [`main.py`](https://github.com/bcirepo/BCITransformer/blob/main/main.py). 
