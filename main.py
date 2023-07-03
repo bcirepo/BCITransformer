@@ -73,4 +73,4 @@ class Train:
 
 
 if __name__ == '__main__':
-    Train(dataset='Lee').SVtrain(subject=1, fold=0)
+    Train(dataset='Lee').SItrain(subject=6)
