@@ -34,7 +34,7 @@ This code aims to download and generate the corresponding MI dataset for each su
 
 
 ### Training and Evaluation
-The code to train and evaluate this paradigm is inside [`main.py`](https://github.com/bcirepo/BCITransformer/blob/main/main.py). 
+The code for training and evaluating this paradigm is inside [`main.py`](https://github.com/bcirepo/BCITransformer/blob/main/main.py). 
 The fold must be an integer number between 0-9. The subject must be an integer represent the subject ID. 
 
 Example to  train Subject Dependent, use:
