@@ -39,12 +39,14 @@ The fold must be an integer number between 0-9. The subject must be an integer r
 
 Example to  train Subject Dependent, use:
 ```bash
-Train(dataset='Lee').SVT(subject=1, fold=1) 
+if __name__ == '__main__':
+    Train(dataset='Lee').SVtrain(subject=6, fold=0) 
 ```
 
 Example to  train Subject Independent, use:
 ```bash
-Train(dataset='Lee').SIT(subject=1) 
+if __name__ == '__main__':
+    Train(dataset='Lee').SItrain(subject=6) 
 ```
 
 
