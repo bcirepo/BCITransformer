@@ -15,8 +15,15 @@ B. Unzip the code from this repository, and put inside the project
 Open terminal in PyCharm and install the dependency using below code
 
 1. [PyTorch](https://pytorch.org/)
+
+With GPU facility
 ```bash
-conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=10.2 -c pytorch
+```
+
+Without GPU facility
+```bash
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cpuonly -c pytorch
 ```
 
 2. Other requirements
