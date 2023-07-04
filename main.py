@@ -9,9 +9,9 @@ class Train:
     def __init__(self, dataset):
         self.args = ArgCenter(dataset).get_arg()
 
-    def SVtrain(self, subject, fold):
+    def SVtrain(self, subject, fold, device='cpu'):
         self.args.paradigm = 'SVT'
-        self.args.device = 'cpu'
+        self.args.device = device
         self.args.eval_idx = fold
         self.args.eval_subject = subject
         self.args.epochs = 200
@@ -41,13 +41,13 @@ class Train:
         write_text = open(f'{self.args.dataset}_report.txt', "a")
         write_text.write(report)
 
-    def SItrain(self, subject):
+    def SItrain(self, subject, device='cpu'):
         lsv = LOSOCVDataset(args=self.args, eval_subj_index=subject)
         x_train, y_train = lsv._train_data, lsv._train_label
         x_val, y_val = lsv.get_eval_data_label()
 
         self.args.paradigm = 'SIT'
-        self.args.device = 'cpu'
+        self.args.device = device
         self.args.epochs = 1000
         self.args.val_len = x_val.shape[0]
         self.args.eval_subject = subject
