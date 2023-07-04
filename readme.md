@@ -40,13 +40,14 @@ The fold must be an integer number between 0-9. The subject must be an integer r
 Example to  train Subject Dependent, use:
 ```bash
 if __name__ == '__main__':
-    Train(dataset='Lee').SVtrain(subject=6, fold=0) 
+    Train(dataset='Lee').SVtrain(subject=6, fold=0, device='cpu') 
 ```
 
 Example to  train Subject Independent, use:
 ```bash
 if __name__ == '__main__':
-    Train(dataset='Lee').SItrain(subject=6) 
+    Train(dataset='Lee').SItrain(subject=6, device='cpu') 
 ```
 
+If you have GPU facility, then use `device='cuda'`
 
