@@ -2,7 +2,7 @@
 
 ## Requirement
 ### Environment
-We recommend using [PyCharm]([pytorch.org](https://www.jetbrains.com/pycharm/)) as IDE.
+We recommend using [PyCharm](https://www.jetbrains.com/pycharm/) as IDE.
 
 Make sure you have `Python==3.9` installed on the computer.
 
