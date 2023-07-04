@@ -112,7 +112,7 @@ class ArgCenter:
         parser.add_argument('--sliding_window', default=10, type=int)
         parser.add_argument('--patch_len', default=3, type=int)
         parser.add_argument('--dropout', default=0.2, type=float)
-        parser.add_argument('--device', default=torch.device("cuda:2" if torch.cuda.is_available() else "cpu"),
+        parser.add_argument('--device', default=torch.device("cuda" if torch.cuda.is_available() else "cpu"),
                             type=str)
         parser.add_argument('--num_layers', default=3, type=int)
         parser.add_argument('--nhead', default=6, type=int)
