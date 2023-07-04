@@ -14,7 +14,7 @@ B. Unzip the code from this repository, and put inside the project
 ### Installation
 Open terminal in PyCharm and install the dependency using below code
 
-1. [PyTorch](https://pytorch.org/){:target="_blank"}
+1. [PyTorch](https://pytorch.org/)
 ```bash
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 -c pytorch
 ```
