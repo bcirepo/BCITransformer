@@ -42,10 +42,7 @@ class Train:
 
 
 if __name__ == '__main__':
-    # subject from 1
-    subjects = list(np.asarray([9, 13, 30, 32, 41]))
-    # subjects = list(np.linspace(1, 54, 54, dtype=int))
-    for subject in subjects:
-        print(f'================ Start Training for Subject-{subject} ================')
-        Train(dataset='Lee').SItrain(subject=subject)
+    subject = 1
+    print(f'================ Start Training for Subject-{subject} ================')
+    Train(dataset='Lee').SItrain(subject=subject)
 
