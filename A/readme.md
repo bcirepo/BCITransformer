@@ -36,12 +36,12 @@ pip install -r requirements.txt
 ## Usage
 Please follow these following steps to run the code.
 ### Download Dataset
-Open and RUN [`generate_dataset.py`](https://github.com/bcirepo/BCITransformer/blob/main/generate_dataset.py) code through the PyCharm IDE.
+Open and RUN `generate_dataset.py` code through the PyCharm IDE.
 This code aims to download and generate the corresponding MI dataset for each subject. First, it will download raw datasets from MOABB and save it in the local directory.
 
 
 ### Training and Evaluation
-The code for training and evaluating this paradigm is inside [`main.py`](https://github.com/bcirepo/BCITransformer/blob/main/main.py). 
+The code for training and evaluating this paradigm is inside `main.py`. 
 The fold must be an integer number between 0-9. The subject must be an integer represent the subject ID. 
 
 Example to  train Subject Dependent, use:
