@@ -1,4 +1,4 @@
-# BCI - Subject Independent
+# BCI Transformer -  Subject Independent
 
 ## Requirement
 ### Environment
