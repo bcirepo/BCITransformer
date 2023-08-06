@@ -68,7 +68,7 @@ class ArgCenter:
         parser.add_argument('--eval_idx', default=0, type=int)
         parser.add_argument('--eval_subject', default=1, type=int)
         parser.add_argument('--dataset', default='Lee', type=str)
-        parser.add_argument('--dataset_dir', default=f'/home/deny/PycharmProjects/DA/Dataset', type=str)
+        parser.add_argument('--dataset_dir', default=Path(__file__).parents[0].resolve() / 'dataset', type=str)
 
         subjects = list(np.linspace(1, 54, 54, dtype=int))
         parser.add_argument('--subjects', default=subjects, type=list)
