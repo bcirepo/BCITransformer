@@ -1,6 +1,6 @@
 
 import numpy as np
-from moabb.datasets import BNCI2014001, PhysionetMI, Cho2017, Lee2019_MI
+from moabb.datasets import Lee2019_MI
 from moabb.paradigms import MotorImagery
 import scipy.io
 from scipy.signal import resample
