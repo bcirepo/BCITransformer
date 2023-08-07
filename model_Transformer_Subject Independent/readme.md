@@ -4,8 +4,6 @@
 ### Environment
 We recommend using [PyCharm](https://www.jetbrains.com/pycharm/) as IDE.
 
-Make sure you have `Python==3.9` available on the IDE.
-
 A. Create PyCharm Project using Conda environment 
 
 B. Unzip the code from this repository, and put inside the project
