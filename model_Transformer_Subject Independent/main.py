@@ -42,6 +42,5 @@ class Train:
 
 
 if __name__ == '__main__':
-    print(f'================ Start Training for Subject-{subject} ================')
     Train(dataset='Lee').SItrain(subject=6)
 
